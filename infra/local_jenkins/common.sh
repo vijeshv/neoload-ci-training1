@@ -12,12 +12,11 @@ if [ -z "$has_common_been_run" ]; then
   export has_common_been_run=$has_common_been_run
 fi
 
-<<<<<<< Updated upstream
-=======
+
 if [ "$1" == "debug" ]; then
   set -x
 fi
->>>>>>> Stashed changes
+
 RESET=
 if [ "$1" == "reset" ]; then
   RESET=reset
